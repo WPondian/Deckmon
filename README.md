@@ -1,3 +1,3 @@
 # Deckmon
 
-online card game project inspired by pokemon tcg with the main objective of learning more about angular.
+Online card game project inspired by pokemon tcg with the main objective of learning more about angular.
