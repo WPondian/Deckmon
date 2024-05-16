@@ -12,4 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 })
 export class AppComponent {
   title = 'Deckmon';
+
+  showHeader: boolean = false;
+  showFooter: boolean = false;
 }

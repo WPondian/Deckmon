@@ -1,12 +1,9 @@
-<app-header></app-header>
+<app-header *ngIf="showHeader"></app-header>
 
-<main class="main">
+<main class="container-fluid">
   <router-outlet></router-outlet>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
 </main>
 
-<app-footer></app-footer>
+<app-footer *ngIf="showFooter"></app-footer>
 
 
