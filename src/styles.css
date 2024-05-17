@@ -2,8 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.fundo-sistema{
-  background-image: url('./images/background-login.jpg');
-  background-size: cover;
-}
