@@ -25,7 +25,7 @@ module.exports = {
           4: "#00b4cc",
           5: "#00dffc",
         },
-        system: {
+        customSystem: {
           1: "#29221f",
           2: "#606d80",
           3: "#13747d",
