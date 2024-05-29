@@ -1,8 +1,7 @@
 import { Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
-import { RegisterComponent } from './components/player/register/register.component';
 
-export const routes: Routes = [
+export const APP_ROUTES: Routes = [
   {
     path: '',
     redirectTo: 'login',
@@ -14,6 +13,6 @@ export const routes: Routes = [
   },
   {
     path: 'register',
-    component: RegisterComponent
+    loadChildren: () => import('./components/player/player.routes').then(r => r.PLAYER_ROUTES)
   },
 ];
