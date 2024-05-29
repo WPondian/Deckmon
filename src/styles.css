@@ -2,3 +2,77 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ------------------------------Fontes------------------------------ */
+
+@font-face {
+  font-family: "Kanit Light";
+  src: url(/assets/fonts/Kanit-Light.ttf);
+}
+
+@font-face {
+  font-family: "Kanit Regular";
+  src: url(/assets/fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Kanit Medium";
+  src: url(/assets/fonts/Kanit-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Kanit SemiBold";
+  src: url(/assets/fonts/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Kanit SemiBoldItalic";
+  src: url(/assets/fonts/Kanit-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Kanit Bold";
+  src: url(/assets/fonts/Kanit-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Kanit BoldItalic";
+  src: url(/assets/fonts/Kanit-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Kanit ExtraBoldItalic";
+  src: url(/assets/fonts/Kanit-ExtraBoldItalic.ttf);
+}
+
+.kanit-light {
+  font-family: "Kanit Light", Arial, Verdana, Tahoma, sans-serif !important;
+}
+
+.kanit-regular {
+  font-family: "Kanit Regular", Arial, Verdana, Tahoma, sans-serif !important;
+}
+
+.kanit-medium {
+  font-family: "Kanit Medium", Arial, Verdana, Tahoma, sans-serif !important;
+}
+
+.kanit-semi-bold {
+  font-family: "Kanit SemiBold", Arial, Verdana, Tahoma, sans-serif !important;
+}
+
+.kanit-semi-bold-italic {
+  font-family: "Kanit SemiBoldItalic", Arial, Verdana, Tahoma, sans-serif !important;
+}
+
+.kanit-bold {
+  font-family: "Kanit Bold", Arial, Verdana, Tahoma, sans-serif !important;
+}
+
+.kanit-bold-italic {
+  font-family: "Kanit BoldItalic", Arial, Verdana, Tahoma, sans-serif !important;
+}
+
+.kanit-extra-bold-italic {
+  font-family: "Kanit ExtraBoldItalic", Arial, Verdana, Tahoma, sans-serif !important;
+}
